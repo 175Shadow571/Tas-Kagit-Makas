@@ -1,0 +1,88 @@
+h1 {
+    margin: 0;
+}
+body {
+    margin: 0;
+    background-color: #D9CA9C;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.header {
+    background-color: #BFBEAA;
+    padding: 20px 0;
+}
+.header h1{
+    color: #3E4031;
+    text-align:center;
+    font: size 32px;
+    margin: 0;
+}
+
+.oyunAlani {
+    display:flex;
+    justify-content: space-around;
+    padding: 40px ;
+    background-color: #D8D9D0;
+    gap: 32px;
+    flex-wrap: wrap;
+
+}
+.sikor {
+    display: flex;
+    gap: 22px;
+    font-size: 36px;
+    align-items: center;
+} 
+
+.oyunAlani .imgsabit {
+    height: 300px;
+    width: 300px;
+
+}
+
+.oyunAlani .imgKapsayici {
+    align-self: flex-end;
+}
+
+.kapsayici {
+    display: flex;
+    gap: 36px;
+}
+
+.secimAlani {
+    text-align: center;
+    font-size: 28px;
+    color:aquamarine;
+    background-color: #ffff;
+    padding-top: 32px;
+
+}
+.secimAlani .imgsecim {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+.bilgilendirme {
+    padding: 32px 80px;
+}
+.bilgilendirme p{
+    margin: 0;
+    font-size: 21px;
+    font-style: italic;
+    padding-left: 20px 
+}
+
+
+.son {
+    text-align: center;
+    background-color: #3E4031;
+    padding: 8px;
+    color:#ffff;
+}
