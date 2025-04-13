@@ -16,39 +16,43 @@
         <div class="oyunAlani">
             <div class="kapsayici">
                 <img class="imgsabit" src="./images/imgBilgisayar.jpg" alt="bilgisayar resmi">
-                <img class="imgKapsayici" src="" alt="">
+
+                <img class="imgKapsayici" id="robotOynanan" src="" alt="">
             </div>
 
             <div class="sikor">
-                <h3>0</h3>
+                <h3 id="skorRobot">0</h3>
                 <h3>:</h3>
-                <h3>0</h3>
+                <h3 id="skorOyuncu">0</h3>
             </div>
 
             <div class="kapsayici">
-                <img class="imgKapsayici" src="" alt="">
+                <img class="imgKapsayici" id="insanOynanan" src="" alt="">
                 <img class="imgsabit" src="./images/imgkullanici.jpg" alt="gözlüklü adam silüyeti">
             </div>
         </div>
 
         <div class="secimAlani">
-            <h1>Birini Seç</h1>
+
+            <h1>Oyna</h1>
             <div class="imgsecim">
-                <img src="./images/tas.jpg" alt="Taş">
-                <img src="./images/makas.jpg" alt="Makas">
-                <img src="./images/kagit.jpg" alt="Kağıt">
+                <img id="tas" onclick="clic(event)" src="./images/tas.jpg" alt="Taş">
+                <img id="makas" onclick="clic(event)" src="./images/makas.jpg" alt="Makas">
+                <img id="kagit" onclick="clic(event)" src="./images/kagit.jpg" alt="Kağıt">
             </div>
         </div>
 
         <div class="bilgilendirme">
             <h1>Nasıl Oynanır?</h1>
-            <p>Yukarıdaki taş kağıt veya makas görselinden birine bas ve bilgisayarında oynamasını bekle</p>
+            <p>Yukarıdaki taş kağıt veya makas görselinden birine bas ve bilgisayarında oynamasını bekle. Oyunu baştan başlatmak için sayfayı yenile.</p>
         </div>
 
 
         <div class="son">
             <p>Shadow © 2025</p>
         </div>
+
+        <script src="./script.js"></script>
     </body>
 
 </html>
